@@ -1,6 +1,6 @@
 {
   "name": "generator-angularwebsitegenerator",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Generate Angular Websites with 'yo websitegenerator' and new features with 'yo websitegenerator:feature'.",
   "license": "MIT",
   "main": "app/index.js",
