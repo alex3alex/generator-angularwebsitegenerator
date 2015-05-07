@@ -1,0 +1,30 @@
+{
+  "name": "generator-angularwebsitegenerator",
+  "version": "0.0.0",
+  "description": "Generate Angular Websites with 'yo websitegenerator' and new features with 'yo websitegenerator:feature'.",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "BerndWessels/generator-angularwebsitegenerator",
+  "author": {
+    "name": "Bernd",
+    "email": "",
+    "url": "https://github.com/BerndWessels"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.19.0",
+    "chalk": "^1.0.0",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}

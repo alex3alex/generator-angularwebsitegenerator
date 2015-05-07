@@ -1,0 +1,55 @@
+/**
+ * App-wide styles.
+ */
+
+// Import fonts.
+@import "../assets/fonts/roboto/style.less";
+@import "../assets/fonts/icomoon/style.less";
+
+@roboto-font-path: '/assets/fonts/roboto';
+@web-icon-font-path: '/assets/fonts/icomoon/fonts';
+
+// Import Bootstrap.
+@import '../bower_components/bootstrap/less/bootstrap.less';
+
+// Override Bootstrap.
+@import "app.bootstrap.variables.less";
+
+/**
+ * Global styles.
+ */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+.vtop {
+  display: inline-block;
+  vertical-align: top;
+  float: none;
+}
+
+/**
+ * App styles.
+ *
+ * Always encapsulate styles hierarchical.
+ */
+body {
+  content {
+  }
+}
+
+/**
+ * Component styles are injected through grunt.
+ */
+// injector
+@import 'home/home.less';
+@import '../components/example-component/example-component.less';
+// endinjector

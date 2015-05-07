@@ -1,0 +1,26 @@
+<!-- Wrap every feature in its own element. That gives us proper css encapsulation. -->
+<home>
+  <!-- Always use the bootstrap grid system. -->
+  <div class="row">
+    <img src="assets/images/yeoman.png" alt="I'm Yeoman">
+  </div>
+  <div class="row">
+    <h1 class="col-xs-offset-1 col-xs-4 vtop">How are you?</h1>
+
+    <h2 class="col-xs-offset-1 col-xs-4 vtop">{{homeController.anything}}</h2>
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <h2 class="font-roboto">I am a robot ;) Here are some icons:</h2>
+      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+      <span class="icon-accessibility"></span>
+    </div>
+  </div>
+  <div class="row">
+    <example-component class="col-xs-12"></example-component>
+  </div>
+  <div class="row">
+    <!-- This will only be visible if the API returns the value. -->
+    <span class="col-xs-12">{{homeController.stuff.something}}</span>
+  </div>
+</home>
