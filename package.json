@@ -4,11 +4,14 @@
   "description": "Generate Angular Websites with 'yo websitegenerator' and new features with 'yo websitegenerator:feature'.",
   "license": "MIT",
   "main": "app/index.js",
-  "repository": "BerndWessels/generator-angularwebsitegenerator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BerndWessels/generator-angularwebsitegenerator.git"
+  },
   "author": {
-    "name": "Bernd",
+    "name": "Bernd Wessels",
     "email": "",
-    "url": "https://github.com/BerndWessels"
+    "url": "https://github.com/BerndWessels/generator-angularwebsitegenerator"
   },
   "scripts": {
     "test": "mocha"
